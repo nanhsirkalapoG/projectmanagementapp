@@ -55,6 +55,12 @@ group :development, :test do
   gem 'annotate', '~> 3.2'
 
   gem 'rspec-rails', '~> 6.0', '>= 6.0.1'
+
+  gem 'factory_bot_rails', '~> 6.2'
+
+  gem 'faker', '~> 3.0'
+
+  gem 'pry', '~> 0.14.1'
 end
 
 group :development do
